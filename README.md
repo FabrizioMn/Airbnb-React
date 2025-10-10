@@ -1,12 +1,32 @@
-# React + Vite
+# 🏡 Airbnb Clone — React + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una réplica funcional del sitio de Airbnb, desarrollada con **React** y **Vite** para una experiencia rápida y moderna. El objetivo principal es practicar:
 
-Currently, two official plugins are available:
+- 🔁 Enrutamiento dinámico con React Router
+- 📦 Consumo de datos mediante hooks (`useState`, `useEffect`)
+- 🎨 Diseño responsivo y moderno con Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Tecnología        | Descripción                                                                 |
+|-------------------|------------------------------------------------------------------------------|
+| ⚛️ React + Vite    | Configuración ligera y rápida con soporte para HMR (Hot Module Replacement) |
+| 🧭 React Router DOM | Navegación entre páginas como `Inicio`, `Explorar`, `Detalles`               |
+| 🔧 Hooks (`useState`, `useEffect`) | Manejo de estado y consumo de datos simulados o APIs externas         |
+| 💅 Tailwind CSS    | Estilizado moderno, responsivo y altamente personalizable                   |
+| 🧩 Componentes reutilizables | Cards, Navbar, Footer, filtros, etc.                                     |
+
+---
+
+## 📁 Estructura del Proyecto
+
+```bash
+src/
+├── assets/              # Imágenes y recursos visuales
+├── components/          # Navbar, Card, Footer, filtros, etc.
+├── pages/               # Home, Explore, Details
+├── data/                # Datos simulados (JSON)
+├── App.jsx              # Enrutamiento principal
+└── main.jsx             # Punto de entrada
